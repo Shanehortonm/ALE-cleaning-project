@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 30px;
+    border: 10px solid #c8c2ae;
+    background-color: #0eb1d2;
+}
+.container {
+    border: solid 0px;
+    width: 850px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Patrick+Hand';
+    text-align: center;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #0eb1d2;
+    position: fixed;
+}
+.logo{
+    width: 50%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Rock+Salt";
+    color: white;
+    letter-spacing: 4px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: "Patrick+Hand";
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+    padding: 36px 10px;
+    margin: 0 1px;
+}
+nav a:hover{
+    background: white;
+    color: black;
+}
+.banner-area{
+    background-image: url(https://media.istockphoto.com/photos/new-modern-living-room-with-kitchen-new-home-interior-photography-picture-id1031043754?k=20&m=1031043754&s=612x612&w=0&h=YH-fz0uS4ehW8WhTglUkS4eohtv9_KILyRTDm_1hPkc=);
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.banner-area::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .7;
+    z-index: -1;
+}  
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: white;
+}
+.content-area{
+     width: 100%;
+     height: 800px;
+     position: relative;
+     background: white;
+     top: 600px;
+ }
+.content-area h2{
+     font-size: 40px;
+     margin: 0;
+     padding-top: 30px;
+     letter-spacing: 4px;
+ }
+.content-area p{
+     padding: 2%;
+     line-height: 35px;
+     text-align: justify;
+ }
+.flex-grid {
+    display: flex;
+    align-items: top;
+    margin: 2rem;
+    background-color: #8ab9b5;
+    height: 400px;
+    width: 40%;
+    box-shadow: 5px 5px 5px 5px;
+  }
+.col {
+    flex: 1;
+    border: 2px;
+  }
