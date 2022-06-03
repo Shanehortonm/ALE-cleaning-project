@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 
-
 .box {
     height: 100px;
     width: 100px;
@@ -35,6 +34,7 @@ header{
     height: 100px;
     background: #0eb1d2;
     position: fixed;
+    
 }
 .logo{
     width: 50%;
@@ -48,10 +48,12 @@ header{
     font-family: "Rock+Salt";
     color: white;
     letter-spacing: 4px;
+    text-shadow: 12px 12px 5px black;
 }
 nav{
     float: right;
     line-height: 100px;
+    flex-wrap: wrap;
 }
 nav a{
     text-decoration: none;
@@ -92,6 +94,11 @@ nav a:hover{
     font-size: 80px;
     color: white;
 }
+
+.banner-area p {
+    color: white;
+    letter-spacing: .5px;
+}
 .content-area{
      width: 100%;
      height: 800px;
@@ -110,16 +117,18 @@ nav a:hover{
      line-height: 35px;
      text-align: justify;
  }
-.flex-grid {
+.flexContainer {
     display: flex;
-    align-items: top;
+    align-items: center;
     margin: 2rem;
-    background-color: #8ab9b5;
+    background-color: #white;
     height: 400px;
-    width: 40%;
+    width: 90%;
     box-shadow: 5px 5px 5px 5px;
+    justify-content: center;
   }
-.col {
+.coloumn {
     flex: 1;
     border: 2px;
+    margin: 2px;
   }
